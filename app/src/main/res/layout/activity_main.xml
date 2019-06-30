@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="vcm.github.webkit.prowebview.MainActivity">
+
+    <vcm.github.webkit.proview.ProWebView
+        android:id="@+id/webview"
+        app:locationEnabled="true"
+        app:javascriptEnabled="true"
+        app:locationMode="modeFine"
+        app:nestedScrollingEnabled="true"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"/>
+
+</FrameLayout>
