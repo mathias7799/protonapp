@@ -139,9 +139,6 @@ public class ProWebView extends WebView implements DownloadListener, NestedScrol
      */
     @Retention(SOURCE)
     @IntDef({
-            LOAD_CACHE_ELSE_NETWORK,
-            LOAD_CACHE_ONLY,
-            LOAD_DEFAULT,
             LOAD_NO_CACHE
     })
     private @interface CacheMode {}
@@ -1619,8 +1616,7 @@ public class ProWebView extends WebView implements DownloadListener, NestedScrol
      * Remove a host from the black list
      */
     public void removeHostFromBlacklist(String host) {
-        if (blacklist.contains(host))
-            blacklist.remove(host);
+        blacklist.remove(host);
     }
 
     /**

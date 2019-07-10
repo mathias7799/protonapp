@@ -2,15 +2,18 @@
 <menu xmlns:android="http://schemas.android.com/apk/res/android">
 
     <item
-        android:id="@+id/main1"
+        android:id="@+id/a"
         android:title="Main" />
 
     <item
-        android:id="@+id/stats"
+        android:id="@+id/b"
         android:title="Stats" />
 
     <item
-        android:id="@+id/egem"
+        android:id="@+id/c"
         android:title="Egem" />
 
+    <item
+        android:id="@+id/clear"
+        android:title="Clear" />
 </menu>

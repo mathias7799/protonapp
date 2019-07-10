@@ -33,9 +33,6 @@ limitations under the License.
         <attr name="cookiesEnabled" format="boolean" />
         <attr name="thirdPartyCookiesEnabled" format="boolean" />
         <attr name="cacheMode" format="enum">
-            <enum name="cacheElseNetwork" value="1" />
-            <enum name="cacheOnly" value="2" />
-            <enum name="cacheDefault" value="3" />
             <enum name="noCache" value="4" />
         </attr>
         <attr name="nestedScrollingEnabled" format="boolean" />

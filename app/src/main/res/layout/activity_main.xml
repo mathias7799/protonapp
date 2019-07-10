@@ -8,11 +8,11 @@
 
     <vcm.github.webkit.proview.ProWebView
         android:id="@+id/webview"
-        app:locationEnabled="true"
-        app:javascriptEnabled="true"
-        app:locationMode="modeFine"
-        app:nestedScrollingEnabled="true"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"/>
+        android:layout_height="match_parent"
+        app:javascriptEnabled="true"
+        app:locationEnabled="true"
+        app:locationMode="modeFine"
+        app:nestedScrollingEnabled="true" />
 
 </FrameLayout>

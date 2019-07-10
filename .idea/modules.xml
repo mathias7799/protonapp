@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="prowebview-master/app" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" group="prowebview-master/library" />
-      <module fileurl="file://$PROJECT_DIR$/prowebview-master.iml" filepath="$PROJECT_DIR$/prowebview-master.iml" group="prowebview-master" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="protonapp/app" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" group="protonapp/library" />
+      <module fileurl="file://$PROJECT_DIR$/protonapp.iml" filepath="$PROJECT_DIR$/protonapp.iml" group="protonapp" />
     </modules>
   </component>
 </project>
