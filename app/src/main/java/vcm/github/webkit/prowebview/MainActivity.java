@@ -8,7 +8,6 @@ import android.view.Menu;
 import android.view.MenuItem;
 
 import vcm.github.webkit.proview.ProWebView;
-import vcm.github.webkit.proview.ProWebViewControls;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -38,18 +37,16 @@ public class MainActivity extends AppCompatActivity {
     @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         switch (item.getItemId()) {
-            case R.id.a:
-                webView.loadUrl("https://protonmine.com");
+            case R.id.c:
+                webView.loadUrl("https://eth.protonmine.com");
                 break;
             case R.id.b:
-                webView.loadUrl("https://protonmine.com/stats.php");
+                webView.loadUrl("https://etc.protonmine.com");
                 break;
-            case R.id.c:
+            case R.id.a:
                 webView.loadUrl("https://egem.protonmine.com");
                 break;
-            case R.id.clear:
-                webView.loadUrl("about:blank");
-                break;
+
         }
         return true;
     }

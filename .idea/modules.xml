@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="protonapp/app" />
-      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" group="protonapp/library" />
-      <module fileurl="file://$PROJECT_DIR$/protonapp.iml" filepath="$PROJECT_DIR$/protonapp.iml" group="protonapp" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" group="protonapp-master/app" />
+      <module fileurl="file://$PROJECT_DIR$/library/library.iml" filepath="$PROJECT_DIR$/library/library.iml" group="protonapp-master/library" />
+      <module fileurl="file://$PROJECT_DIR$/protonapp-master.iml" filepath="$PROJECT_DIR$/protonapp-master.iml" group="protonapp-master" />
     </modules>
   </component>
 </project>
